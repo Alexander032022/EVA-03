@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+
+}
+
+header{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 3px dashed lightgrey;
+}
+
+nav{
+    background: lightblue;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+#content{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: green;
+    padding: 40px;
+}
+
+.imput22{
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    max-width: 400px;
+    border: 3px groove black;
+}
+
+.article{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee
+}
+
+.article:first-child{
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.article h2{
+    font-size: 25px;
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 540px;
+    background: lightseagreen;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    color: rgba(0, 30, 255, 0.8)
+}
+/* .container-operadores {
+    display: block;
+    width: 100%;
+    font-size: 1.3em
+}
+/* .container-operadores{ */
+    /* padding: 20px;
+    background: rgba(153, 0, 255,0.1);
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-bottom: 40px;
+}
+.container-operadores{
+    outline: 1px solid rgba(0,0,0,0.7);
+}
+.container-operadores{
+    margin-top: -135px;
+} */
